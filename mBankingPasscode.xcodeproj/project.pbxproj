@@ -14,6 +14,9 @@
 		3F552F8C2BAF262D00ACD0B3 /* mBankingPasscodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552F8B2BAF262D00ACD0B3 /* mBankingPasscodeTests.swift */; };
 		3F552F962BAF262E00ACD0B3 /* mBankingPasscodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552F952BAF262E00ACD0B3 /* mBankingPasscodeUITests.swift */; };
 		3F552F982BAF262E00ACD0B3 /* mBankingPasscodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552F972BAF262E00ACD0B3 /* mBankingPasscodeUITestsLaunchTests.swift */; };
+		3F552FA52BAF274B00ACD0B3 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552FA42BAF274B00ACD0B3 /* PasscodeView.swift */; };
+		3F552FA72BAF275B00ACD0B3 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552FA62BAF275B00ACD0B3 /* NumberPadView.swift */; };
+		3F552FA92BAF276D00ACD0B3 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552FA82BAF276D00ACD0B3 /* PasscodeIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3F552F912BAF262E00ACD0B3 /* mBankingPasscodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mBankingPasscodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F552F952BAF262E00ACD0B3 /* mBankingPasscodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mBankingPasscodeUITests.swift; sourceTree = "<group>"; };
 		3F552F972BAF262E00ACD0B3 /* mBankingPasscodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mBankingPasscodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F552FA42BAF274B00ACD0B3 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		3F552FA62BAF275B00ACD0B3 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		3F552FA82BAF276D00ACD0B3 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				3F552F7C2BAF262700ACD0B3 /* ContentView.swift */,
 				3F552F7E2BAF262C00ACD0B3 /* Assets.xcassets */,
 				3F552F802BAF262C00ACD0B3 /* Preview Content */,
+				3F552FA42BAF274B00ACD0B3 /* PasscodeView.swift */,
+				3F552FA62BAF275B00ACD0B3 /* NumberPadView.swift */,
+				3F552FA82BAF276D00ACD0B3 /* PasscodeIndicatorView.swift */,
 			);
 			path = mBankingPasscode;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F552FA52BAF274B00ACD0B3 /* PasscodeView.swift in Sources */,
+				3F552FA92BAF276D00ACD0B3 /* PasscodeIndicatorView.swift in Sources */,
 				3F552F7D2BAF262700ACD0B3 /* ContentView.swift in Sources */,
 				3F552F7B2BAF262700ACD0B3 /* mBankingPasscodeApp.swift in Sources */,
+				3F552FA72BAF275B00ACD0B3 /* NumberPadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
