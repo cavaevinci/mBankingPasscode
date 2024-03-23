@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct PasscodeView: View {
+    
+    @State private var passcode = ""
+    
     var body: some View {
-        VStack(spacing: 24) {
-            Text("Enter Passcode")
-                .font(.largeTitle)
-                .fontWeight(.heavy)
+        VStack(spacing: 48) {
+            VStack(spacing: 24) {
+                Text("Enter Passcode")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                
+                Text("Please enter your 4-digit pin")
+                    .font(.subheadline)
+                    .multilineTextAlignment(.center)
+            }
+            .padding(.top)
             
-            Text("Please enter your 4-digit pin")
-                .font(.subheadline)
-                .multilineTextAlignment(.center)
+            Spacer()
+            
+            NumberPadView()
         }
-        .padding(.top)
+        
     }
 }
 
