@@ -11,6 +11,8 @@ struct NumberPadView: View {
     
     @Binding var passcode: String
     
+    private let shuffledNumpadKeys = (1...9).shuffled()
+    
     private let columns: [GridItem] = [
         .init(),
         .init(),
@@ -19,7 +21,7 @@ struct NumberPadView: View {
     
     var body: some View {
         LazyVGrid(columns: columns) {
-            ForEach(1 ... 9, id: \.self) { index in
+            ForEach(shuffledNumpadKeys, id: \.self) { index in
                 Button {
                     addValue(index)
                 } label: {
