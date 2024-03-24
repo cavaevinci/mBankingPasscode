@@ -24,9 +24,11 @@ struct PasscodeView: View {
             }
             .padding(.top)
             
+            PasscodeIndicatorView(passcode: $passcode)
+            
             Spacer()
             
-            NumberPadView()
+            NumberPadView(passcode: $passcode)
         }
         
     }
