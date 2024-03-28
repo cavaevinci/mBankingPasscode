@@ -16,7 +16,7 @@ struct PasscodeIndicatorView: View {
             ForEach(0 ..< 4) { index in
                 Circle()
                     .fill(passcode.count > index ? .primary : Color(.white))
-                    .frame(width: 20, height: 20)
+                    .frame(width: 30, height: 30)
                     .overlay {
                         Circle()
                             .stroke(.black, lineWidth: 1.0)
